@@ -11,6 +11,8 @@
 
 # thefuck
 
+This is a fork from [oh-my-fish/plugin-thefuck](https://github.com/oh-my-fish/plugin-thefuck). 
+
 This plug-in creates the necessary function to be used with [The Fuck][thefuck].
 It brings:
 
@@ -28,20 +30,8 @@ $ omf install thefuck
 ```
 
 
-## Optional key binding
-
-To use a key bind just add it to your `fish_user_key_bindings` function:
-
-```fish
-function fish_user_key_bindings
-  # ...
-  bind \e\e 'thefuck-command-line'  # Bind EscEsc to thefuck
-  # or
-  bind \cf 'thefuck-command-line'  # Bind Ctrl+F to thefuck
-  # ...
-end
-```
-
+# Key bindings
+1. `Esc-Esc` - `thefuck_command_line`
 
 ## Usage
 
